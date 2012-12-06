@@ -19,7 +19,7 @@
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.0.*",
         "fadoe/fadoe-base": "dev-master",
-        "zf-commons/zfcuser": "dev-master"
+        "zf-commons/zfc-user": "dev-master"
     },
     "autoload": {
         "psr-0": {
