@@ -1,0 +1,32 @@
+{
+    "name": "fadoe/fadoe-user",
+    "description": "User Module for FaDoe Framework.",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "zend",
+        "module",
+        "fadoe"
+    ],
+    "homepage": "https://github.com/fadoe/FaDoeUser",
+    "authors": [
+        {
+            "name": "Falk Doering",
+            "homepage": "http://www.fadoe.de/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.0.*",
+        "fadoe/fadoe-base": "dev-master",
+        "zf-commons/zfcuser": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "FadoeUser": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
